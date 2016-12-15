@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html, body {
+    height: 100%;
+}
+
 .container {
     
 }
@@ -16,8 +20,10 @@
     height: 300px;
     width: 200px;
     background-color: cornflowerblue;
+    float: left;
 }
 
 .container .main {    
     background-color: lightgray;
+    margin-left: 200px;
 }
