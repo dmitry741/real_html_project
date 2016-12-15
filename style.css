@@ -8,12 +8,13 @@ html, body {
 }
 
 .container {
-    
+    min-height: 100%;
 }
 
 .container .header {
     height: 100px;
     background-color: antiquewhite;
+    min-width: 800px;
 }
 
 .container .nav {
@@ -26,4 +27,9 @@ html, body {
 .container .main {    
     background-color: lightgray;
     margin-left: 200px;
+    min-width: 600px;
+}
+
+.container .footer {
+    height: 100px;
 }
