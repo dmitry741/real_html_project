@@ -27,9 +27,9 @@ html, body {
 }
 
 .container .main {    
-    background-color: lightgray;
     margin-left: 200px;
     min-width: 600px;
+    min-height: 500 px;
 }
 
 .container .block {
@@ -57,10 +57,12 @@ html, body {
     height: 100px;
 }
 
-@media screen and (min-width: 1200px) {
- .container .header {
-    height: 100px;
-    background-color: beige;
-    min-width: 800px;
-}   
+@media screen and (max-width: 1000px) {
+     .container .header {
+        background-color: beige;     
+    }   
+    
+    .container .block {
+        float: none;
+    }    
 }
