@@ -9,6 +9,8 @@ html, body {
 
 .container {
     min-height: 100%;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .container .header {
@@ -30,6 +32,22 @@ html, body {
     min-width: 600px;
 }
 
-.container .footer {
+.footer {    
+    margin-top: -100px;
     height: 100px;
+    background-color: darkslategray;
+    width: 80%;
+    margin: -100px auto 0;
+}
+
+.clr {
+    height: 100px;
+}
+
+@media screen and (min-width: 1200px) {
+ .container .header {
+    height: 100px;
+    background-color: beige;
+    min-width: 800px;
+}   
 }
