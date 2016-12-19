@@ -66,6 +66,12 @@ html, body {
     height: 100px;
 }
 
+.class_in_boostrap {    
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
 @media screen and (max-width: 1000px) {
      .container .header {
         background-color: beige;     
